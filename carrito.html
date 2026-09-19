@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Carrito de compras HP Store con resumen del pedido.">
+  <title>Mi carrito (3) | HP Store</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="logo">
+        <a href="index.html">
+          <span class="logo-badge">HP</span>
+          HP Store
+        </a>
+      </p>
+
+      <form class="search-form" role="search" action="catalogo.html" method="get">
+        <label for="busqueda-carrito">Buscar equipos HP</label>
+        <input type="search" id="busqueda-carrito" name="q" placeholder="Buscar equipos HP...">
+        <button type="submit">Buscar</button>
+      </form>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="carrito.html" aria-current="page">Carrito</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content" id="contenido">
+    <h1 class="page-title">Mi carrito (3)</h1>
+    <p class="page-sub">Revisa los productos agregados antes de pagar.</p>
+
+    <ul class="cart-list">
+
+      <li class="cart-item">
+        <img src="img/hp_fd1058la.jpg" alt="Portátil HP 15-fd1058la de color plata">
+        <div class="cart-item-info">
+          <h3>HP 15-fd1058la &middot; Core Ultra 5 &middot; 16GB</h3>
+          <div class="qty-control" aria-label="Cantidad de HP 15-fd1058la">
+            <button type="button" aria-label="Disminuir cantidad">-</button>
+            <span class="qty-value" aria-live="polite">1</span>
+            <button type="button" aria-label="Aumentar cantidad">+</button>
+          </div>
+        </div>
+        <span class="price">$2.599.000</span>
+      </li>
+
+      <li class="cart-item">
+        <img src="img/hp_fd0026la.jpg" alt="Portátil HP 15-fd0026la de color azul claro">
+        <div class="cart-item-info">
+          <h3>HP 15-fd0026la &middot; Core i3 &middot; 8GB</h3>
+          <div class="qty-control" aria-label="Cantidad de HP 15-fd0026la">
+            <button type="button" aria-label="Disminuir cantidad">-</button>
+            <span class="qty-value" aria-live="polite">1</span>
+            <button type="button" aria-label="Aumentar cantidad">+</button>
+          </div>
+        </div>
+        <span class="price">$1.699.000</span>
+      </li>
+
+      <li class="cart-item">
+        <img src="img/hp_victus.jpg" alt="Portátil HP Victus 15 Gaming de color negro">
+        <div class="cart-item-info">
+          <h3>HP Victus 15 Gaming &middot; Ryzen 5 &middot; RTX</h3>
+          <div class="qty-control" aria-label="Cantidad de HP Victus 15 Gaming">
+            <button type="button" aria-label="Disminuir cantidad">-</button>
+            <span class="qty-value" aria-live="polite">1</span>
+            <button type="button" aria-label="Aumentar cantidad">+</button>
+          </div>
+        </div>
+        <span class="price">$2.018.000</span>
+      </li>
+
+    </ul>
+
+    <section class="cart-summary" aria-labelledby="titulo-resumen">
+      <h2 id="titulo-resumen">Resumen de la compra</h2>
+
+      <div class="sum-row">
+        <span>Subtotal</span>
+        <strong>$6.316.000</strong>
+      </div>
+      <div class="sum-row">
+        <span>Envío</span>
+        <strong>Gratis</strong>
+      </div>
+      <div class="sum-row total">
+        <span>Total</span>
+        <span class="amount">$6.316.000</span>
+      </div>
+
+      <button type="button" class="btn btn-action" onclick="location.href='index.html'" style="width: 100%; margin-top: 14px;">
+        Ir a pagar
+      </button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>HP Store &middot; Proyecto académico de usabilidad y accesibilidad.</p>
+      <p>Precios de referencia en pesos colombianos (COP).</p>
+    </div>
+  </footer>
+</body>
+</html>

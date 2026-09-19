@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HP Store: tienda en línea de computadores, portátiles y equipos HP con soporte técnico. Prototipo para proyecto académico de usabilidad y accesibilidad.">
+  <title>HP Store | Computadores y Portátiles HP</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="logo">
+        <a href="index.html">
+          <span class="logo-badge">HP</span>
+          HP Store
+        </a>
+      </p>
+
+      <form class="search-form" role="search" action="catalogo.html" method="get">
+        <label for="busqueda-home">Buscar equipos HP</label>
+        <input type="search" id="busqueda-home" name="q" placeholder="Buscar equipos HP...">
+        <button type="submit">Buscar</button>
+      </form>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html" aria-current="page">Inicio</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content" id="contenido">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <h1 id="titulo-principal">Prototipo e-Commerce Computadores HP</h1>
+      <p>
+        Tienda de portátiles, equipos de escritorio y accesorios HP con
+        soporte técnico especializado. Encuentra el equipo ideal para
+        estudiar, trabajar o jugar.
+      </p>
+      <a class="btn btn-primary" href="catalogo.html">Ver catálogo</a>
+    </section>
+
+    <section aria-labelledby="titulo-categorias">
+      <h2 class="page-title" id="titulo-categorias">Categorías</h2>
+      <p class="page-sub">Explora por tipo de equipo.</p>
+
+      <div class="grid-products">
+        <a class="product-card" href="catalogo.html" style="text-decoration: none; color: inherit;">
+          <img src="img/hp_fd1058la.jpg" alt="Portátil HP color plata abierto con pantalla encendida">
+          <div class="product-card-body">
+            <p class="product-cat">Portátiles</p>
+            <h2>Laptops</h2>
+            <p class="product-specs">Equipos para estudio, oficina y uso diario.</p>
+          </div>
+        </a>
+
+        <a class="product-card" href="catalogo.html" style="text-decoration: none; color: inherit;">
+          <img src="img/hp_fc0276la.jpg" alt="Portátil HP de color gris con teclado completo">
+          <div class="product-card-body">
+            <p class="product-cat">Alto rendimiento</p>
+            <h2>PCs de escritorio y gaming</h2>
+            <p class="product-specs">Potencia para trabajo pesado y juegos.</p>
+          </div>
+        </a>
+
+        <a class="product-card" href="detalle.html" style="text-decoration: none; color: inherit;">
+          <img src="img/hp_victus.jpg" alt="Portátil HP Victus de color negro para gaming con iluminación">
+          <div class="product-card-body">
+            <p class="product-cat">Gaming</p>
+            <h2>HP Victus y OMEN</h2>
+            <p class="product-specs">Gráficos dedicados y alta tasa de refresco.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>HP Store &middot; Proyecto académico de usabilidad y accesibilidad.</p>
+      <p>Precios de referencia en pesos colombianos (COP).</p>
+    </div>
+  </footer>
+</body>
+</html>

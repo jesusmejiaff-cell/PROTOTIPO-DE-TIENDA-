@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo de portátiles HP: HP 15-fd1058la, HP 15-fd0026la y HP Victus 15 Gaming.">
+  <title>Catálogo | HP Store</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="logo">
+        <a href="index.html">
+          <span class="logo-badge">HP</span>
+          HP Store
+        </a>
+      </p>
+
+      <form class="search-form" role="search" action="catalogo.html" method="get">
+        <label for="busqueda-catalogo">Buscar en el catálogo</label>
+        <input type="search" id="busqueda-catalogo" name="q" placeholder="Buscar en catálogo...">
+        <button type="submit">Buscar</button>
+      </form>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="catalogo.html" aria-current="page">Catálogo</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content" id="contenido">
+    <h1 class="page-title">Catálogo de Portátiles HP</h1>
+    <p class="page-sub">
+      Filtra los equipos por precio, tipo o uso. Selecciona un producto
+      para ver su detalle. Contamos con 6 portátiles HP.
+    </p>
+
+    <section class="filters" aria-labelledby="titulo-filtros">
+      <h2 id="titulo-filtros">Filtros</h2>
+
+      <fieldset class="filter-group">
+        <legend>Precio</legend>
+        <button type="button" class="filter-chip" aria-pressed="true">Todos</button>
+        <button type="button" class="filter-chip" aria-pressed="false">Menos de $2.000.000</button>
+        <button type="button" class="filter-chip" aria-pressed="false">$2.000.000 - $3.000.000</button>
+        <button type="button" class="filter-chip" aria-pressed="false">Más de $3.000.000</button>
+      </fieldset>
+
+      <fieldset class="filter-group">
+        <legend>Tipo</legend>
+        <button type="button" class="filter-chip" aria-pressed="true">Todos</button>
+        <button type="button" class="filter-chip" aria-pressed="false">Portátil</button>
+        <button type="button" class="filter-chip" aria-pressed="false">Gaming</button>
+      </fieldset>
+
+      <fieldset class="filter-group">
+        <legend>Uso</legend>
+        <button type="button" class="filter-chip" aria-pressed="true">Todos</button>
+        <button type="button" class="filter-chip" aria-pressed="false">Estudio</button>
+        <button type="button" class="filter-chip" aria-pressed="false">Oficina</button>
+        <button type="button" class="filter-chip" aria-pressed="false">Gamer</button>
+      </fieldset>
+    </section>
+
+    <section aria-labelledby="titulo-productos">
+      <h2 class="page-title" id="titulo-productos" style="font-size: 20px;">Productos</h2>
+
+      <div class="grid-products">
+
+        <article class="product-card">
+          <img src="img/hp_fd1058la.jpg" alt="Portátil HP 15-fd1058la de color plata con pantalla táctil encendida">
+          <div class="product-card-body">
+            <p class="product-cat">Portátil &middot; Táctil</p>
+            <h3>HP 15-fd1058la</h3>
+            <p class="product-specs">
+              Intel Core Ultra 5 &middot; 16 GB RAM &middot; 512 GB SSD &middot;
+              Pantalla 15.6" FHD táctil &middot; Windows 11 Home
+            </p>
+            <div class="price-row">
+              <span class="price">$2.599.000</span>
+              <span class="price-old">$3.459.000</span>
+            </div>
+            <a class="btn btn-action" href="detalle.html">Ver detalle</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="img/hp_fd0026la.jpg" alt="Portátil HP 15-fd0026la de color azul claro con pantalla encendida">
+          <div class="product-card-body">
+            <p class="product-cat">Portátil &middot; Económico</p>
+            <h3>HP 15-fd0026la</h3>
+            <p class="product-specs">
+              Intel Core i3 &middot; 8 GB RAM &middot; 512 GB SSD &middot;
+              Pantalla 15.6" FHD &middot; Windows 11 Home
+            </p>
+            <div class="price-row">
+              <span class="price">$1.699.000</span>
+            </div>
+            <a class="btn btn-action" href="detalle.html">Ver detalle</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="img/hp_victus.jpg" alt="Portátil HP Victus 15 Gaming de color negro con teclado retroiluminado">
+          <div class="product-card-body">
+            <p class="product-cat">Gaming</p>
+            <h3>HP Victus 15 Gaming</h3>
+            <p class="product-specs">
+              AMD Ryzen 5 &middot; 16 GB RAM &middot; 512 GB SSD &middot;
+              NVIDIA GeForce RTX &middot; Pantalla 15.6" FHD
+            </p>
+            <div class="price-row">
+              <span class="price">$2.018.000</span>
+            </div>
+            <a class="btn btn-action" href="detalle.html">Ver detalle</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="img/hp_fc0262la.jpg" alt="Portátil HP 15-fc0262la de color azul claro de luna con pantalla encendida">
+          <div class="product-card-body">
+            <p class="product-cat">Portátil &middot; Azul claro de luna</p>
+            <h3>HP 15-fc0262la</h3>
+            <p class="product-specs">
+              AMD Ryzen 5 &middot; 8 GB RAM &middot; 512 GB SSD &middot;
+              Pantalla 15.6" FHD &middot; Windows 11 Home
+            </p>
+            <div class="price-row">
+              <span class="price">$2.099.000</span>
+              <span class="price-old">$3.199.000</span>
+            </div>
+            <a class="btn btn-action" href="detalle.html">Ver detalle</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="img/hp_fc0276la.jpg" alt="Portátil HP 15-fc0276la de color gris con teclado completo">
+          <div class="product-card-body">
+            <p class="product-cat">Portátil &middot; Alto rendimiento</p>
+            <h3>HP 15-fc0276la</h3>
+            <p class="product-specs">
+              AMD Ryzen 7 &middot; 16 GB RAM &middot; 1 TB SSD &middot;
+              Pantalla 15.6" FHD &middot; Windows 11 Home
+            </p>
+            <div class="price-row">
+              <span class="price">$2.549.000</span>
+              <span class="price-old">$3.799.000</span>
+            </div>
+            <a class="btn btn-action" href="detalle.html">Ver detalle</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img src="img/hp_omen.jpg" alt="Portátil HP OMEN Transcend 14 de color negro para gaming de alta gama">
+          <div class="product-card-body">
+            <p class="product-cat">Gaming &middot; Alta gama</p>
+            <h3>HP OMEN Transcend 14</h3>
+            <p class="product-specs">
+              Intel Core Ultra 9 &middot; 32 GB RAM &middot; 2 TB SSD &middot;
+              NVIDIA GeForce RTX 5070 &middot; Pantalla 14" 3K
+            </p>
+            <div class="price-row">
+              <span class="price">$11.999.070</span>
+              <span class="price-old">$14.499.000</span>
+            </div>
+            <a class="btn btn-action" href="detalle.html">Ver detalle</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>HP Store &middot; Proyecto académico de usabilidad y accesibilidad.</p>
+      <p>Precios de referencia en pesos colombianos (COP).</p>
+    </div>
+  </footer>
+</body>
+</html>
